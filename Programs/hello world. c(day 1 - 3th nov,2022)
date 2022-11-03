@@ -1,0 +1,15 @@
+/* first program to print hello world to output screen */
+
+#include<stdio.h>
+int  main()
+{
+//to display "hello world" message to output screen
+
+printf("Hello world\n");
+
+//getch is used to hold the output screen
+getch();
+
+// if we are using int main the we have to return 
+return 0;
+}
