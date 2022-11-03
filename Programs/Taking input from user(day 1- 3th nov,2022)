@@ -1,0 +1,25 @@
+/* to take input from user*/
+
+// standard input -output 
+#include<stdio.h>   
+#include<conio.h>
+
+int main()
+{
+
+int n; //variable declartion
+
+//to clear the screen
+clrscr();
+
+// to display mesage
+printf("Enter a number: ");
+scanf("%d",&n);
+
+// to display number from user.
+printf("Number is %d",n);
+
+getch();
+return 0;
+}
+
