@@ -1,0 +1,12 @@
+/* Some important points about gets() and scanf() are:
+
+    // scanf() and gets()  both are used to take input from user.
+    
+    // scanf() can only take input until it encounters a space. The words after spaace are ignored by it.
+    
+    //gets() is used to take a single input at a time but can be used to input a complete sentences with space unlike scanf().
+    
+    
+    //To use gets() function we have to use #include<ctype.h (header file).
+    // gets() is used for input
+    // puts() is used for output
