@@ -1,0 +1,35 @@
+/* ascii values for any character*/
+
+ASCII(American Standard Code for Information Interchange)
+
+                 Example 1:
+Input: @
+Output: ASCII value of @: 64
+
+               Example 2:
+Input: a
+Output: ASCII value of a:97
+
+
+
+//To print ASCII values of any character
+
+//header  standard input/output file
+#include <stdio.h>
+
+int main()
+{
+//variable declaration
+    char ch;
+    
+    //Enter a mesage to display on the screen 
+ printf("Enter a character: ");
+ 
+ // Through scanf is we can enter character 
+ scanf("%c",&ch);
+ 
+ // To print asccii values with character we can write like this 
+ printf("ASCII value of %c: %d",ch,ch);
+ 
+  return 0;
+}
