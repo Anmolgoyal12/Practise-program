@@ -1,5 +1,16 @@
 /* to take input from user*/
 
+                  Example 1
+ Input: 2
+ Output: Number is 2
+ 
+                  Example  2
+ Input: 4
+ Output: Number is 4
+ 
+ 
+
+          
 // standard input -output 
 #include<stdio.h>   
 #include<conio.h>
