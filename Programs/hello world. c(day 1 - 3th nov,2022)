@@ -1,5 +1,10 @@
 /* first program to print hello world to output screen */
 
+                              Example
+Output: Hello world
+
+
+
 #include<stdio.h>
 int  main()
 {
