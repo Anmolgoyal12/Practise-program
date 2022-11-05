@@ -10,3 +10,35 @@
     //To use gets() function we have to use #include<ctype.h (header file).
     // gets() is used for input
     // puts() is used for output
+    
+                Example 1:
+    Input: 
+    Enter a string: hello game is come to your world
+    
+    Output:
+    String is hello game is come to your world 
+    
+    
+                    Example 2
+                    
+  Input: 
+    Enter a string: hello game is fun
+    
+    Output:
+    String is hello game is  fun 
+    
+    
+    
+    #include<stdio.h>
+    #include<ctype.h>
+    
+    int main()
+    {
+    char st[30];
+    printf("Enter your name: ");
+    //gets function which uses  spaces
+    gets(st);
+    
+    printf("%s",st);
+    return 0;
+    }
