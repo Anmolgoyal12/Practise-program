@@ -1,0 +1,46 @@
+// we use decision making in c to control the order of execution of our program. Switch case in c is one of the decision making statements which is mostly used 
+when we have multiple alternatives to choose from.
+
+                  Syntax
+                  
+                  switch(expression)
+                  {
+                  case value1:
+                    statement_1;
+                    break;
+                  
+                  case value2:
+                    statement_2;
+                    break;
+                    
+                  case value3:
+                    statement_3;
+                    break;
+                  
+                  default:
+                  default statement;
+                  }
+                  
+                  
+                  #include<stdio.h>  
+int main(){    
+int number=0;     
+printf("enter a number:");    
+scanf("%d",&number);    
+switch(number){    
+//if number matches with any case then that case will executed
+case 10:    
+printf("number is equals to 10");    
+break;    
+case 50:    
+printf("number is equal to 50");    
+break;    
+case 100:    
+printf("number is equal to 100");    
+break;    
+//default case only execute when no case is executed
+default:    
+printf("number is not equal to 10, 50 or 100");    
+}    
+return 0;  
+}    
