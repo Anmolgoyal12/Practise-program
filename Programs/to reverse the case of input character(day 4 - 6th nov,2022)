@@ -1,0 +1,27 @@
+/// to reverse the case of input character
+
+
+// if we want to reverse the  case of input character then islower() under #include<ctype.h> header file .
+//Through this we can check character is lowercase or not.
+
+//through scanf and getchar we can enter character
+
+toupper  is used to convert the character in uppercase
+
+
+#include<stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter a character:");
+    // through getchar we can enter character
+    ch=getchar();
+    check is entered character is lowercase or not 
+    if(islower(ch))
+    // if entered character is lowercase then it convert into uppercase 
+    putchar(toupper(ch));
+    else
+    //otherwise else case will executed(if entered character is in capital) 
+    printf("%c is lowercase",tolower(ch));
+    return 0;
+}
