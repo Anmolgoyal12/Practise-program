@@ -1,0 +1,36 @@
+// to check if input character is vowel or not through switch case
+
+      // In default case we will enter not a vowels
+
+      //In case we enter a vowels
+      
+      
+      #include<stdio.h>
+
+int main()
+{
+    char ch;
+    
+    // Enter a character
+    printf("Enter a character:");
+    scanf("%c",&ch);
+    //switch case
+    switch(ch)
+    {
+    //case for vowels in capital and small 
+        case 'a':
+        case 'A':
+        case 'e':
+        case 'E':
+        case 'i':
+        case 'I':
+        case 'o':
+        case 'O':
+        case 'u':
+        case 'U':printf("%c is vowel",ch);
+        break;
+        // only executed if other character is entered except (a,e,i,o,u and A,E,I,O,U)
+        default:printf("%c is not a vowel",ch);
+    }
+    return 0;
+}
