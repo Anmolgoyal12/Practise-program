@@ -1,0 +1,42 @@
+// to print largest and smallest using global declaration
+
+Input 1:
+10 7
+
+Output 1:
+largest1 is 10
+smallest1 is 6
+
+Input 2:
+7 17
+
+Output 2:
+largest is 17
+smallest is 7
+
+
+
+
+#include <stdio.h>
+
+int a,b;
+int main() {
+
+printf("Enter two numbers:\n");
+scanf("%d %d",&a,&b);
+//check if a and b are equal 
+if(a==b)
+printf("Both are equal\n");
+// check if a is less than b then if statement will executed
+else if(a<b)
+{
+printf("\nlargest is %d\n",a);
+printf("smallest is %d\n",b);
+}
+// it will executed only when the value of a is greater then b  
+else{
+    printf("\nlargest1 is %d\n",a);
+printf("smallest1 is %d\n",b);
+}
+return 0;
+}
