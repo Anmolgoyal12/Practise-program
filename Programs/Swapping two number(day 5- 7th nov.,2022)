@@ -1,0 +1,34 @@
+//Swapping two number either third variable or without third variable 
+for example :
+
+Input:
+a=7,b=8
+
+Output:
+a=8, b=7
+
+
+////////////////////////////////////////////////
+Using third variable
+
+#include <stdio.h>
+
+int main() {
+int a,b,c;
+printf("Enter two numbers:\n");
+scanf("%d %d",&a,&b);
+//storing the value of b to temporary variable c
+c=b;
+// value of a to b
+b=a;
+then value of c which comes from b it is transfer to a
+a=c;
+
+    printf("Swap values are:%d %d",a,b);
+    return 0;
+}
+
+another logic 
+a=a*b;   -       a= 7*8=56
+b=a/b;    -      b= 56/8=7
+a=a/b;    -      a= 56/7=8
